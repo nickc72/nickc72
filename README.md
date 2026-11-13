@@ -6,7 +6,6 @@
 </p>
 
 <p align="left">
-  <a href="https://nickc72.github.io"><img src="https://img.shields.io/badge/Portfolio-nickc72.github.io-blue?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://github.com/nickc72"><img src="https://img.shields.io/badge/GitHub-nickc72-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
@@ -17,7 +16,6 @@
 - 💻 Passionate Software Developer with a strong focus on frontend architecture, emulator/systems programming, and full-stack engineering.
 - 🚀 Builder of tools that make media archiving, retro gaming, and reading fast, fluid, and distraction-free.
 - 🔭 Actively building open-source projects including **VORTEX-NES**, **KomaDL**, and **PyonDL**.
-- 🌐 Explore my interactive portfolio at [nickc72.github.io](https://nickc72.github.io).
 
 ---
 
