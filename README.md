@@ -2,7 +2,7 @@
 
 <p align="left">
   <strong>Full Stack Developer & Open Source Enthusiast</strong><br>
-  <span>Building high-performance web applications, developer tooling, and clean digital experiences.</span>
+  <span>Building high-performance web applications, emulators, developer tooling, and clean digital experiences.</span>
 </p>
 
 <p align="left">
@@ -14,9 +14,9 @@
 
 ### 👨‍💻 About Me
 
-- 💻 Passionate Software Developer with a strong focus on modern web applications and frontend/backend engineering.
-- 🚀 Creator of tools that make media archiving and reading fast, fluid, and distraction-free.
-- 🔭 Actively building open-source projects including **KomaDL** and **PyonDL**.
+- 💻 Passionate Software Developer with a strong focus on frontend architecture, emulator/systems programming, and full-stack engineering.
+- 🚀 Builder of tools that make media archiving, retro gaming, and reading fast, fluid, and distraction-free.
+- 🔭 Actively building open-source projects including **VORTEX-NES**, **KomaDL**, and **PyonDL**.
 - 🌐 Explore my interactive portfolio at [nickc72.github.io](https://nickc72.github.io).
 
 ---
@@ -36,18 +36,38 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 
-**Backend & Tooling:**  
+**Backend, Networking & Systems:**  
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
 ### 📌 Featured Projects
 
 <table>
+  <tr>
+    <td width="100%" colspan="2" valign="top">
+      <h3 align="center"><a href="https://github.com/nickc72/vortex-nes-webrtc-coop">🎮 VORTEX-NES</a></h3>
+      <p align="center">
+        <a href="https://github.com/nickc72/vortex-nes-webrtc-coop"><img src="https://img.shields.io/badge/WebRTC-P2P%20Netplay-blue?style=flat-square" alt="WebRTC Netplay"></a>
+        <a href="https://github.com/nickc72/vortex-nes-webrtc-coop"><img src="https://img.shields.io/badge/60FPS-6502%20NES%20Emulator-red?style=flat-square" alt="NES Emulator"></a>
+        <a href="https://github.com/nickc72/vortex-nes-webrtc-coop/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-yellow.svg?style=flat-square" alt="Apache 2.0 License"></a>
+      </p>
+      <p>A locked 60 FPS browser-based NES hardware emulator (MOS 6502 CPU / Ricoh 2C02 PPU / 2A03 APU) with WebRTC peer-to-peer multiplayer, zero-lag redundant UDP packet window, automatic ROM syncing, and direct 6502 Zero-Page RAM cheat injection for classic 2-player co-op games like <em>Contra</em>.</p>
+      <ul>
+        <li><strong>Tech Stack:</strong> TypeScript, Node.js, Express, WebRTC (<code>RTCDataChannel</code>), WebSockets, WebAudio API, Tailwind CSS</li>
+        <li><strong>Highlights:</strong> Real-time P2P co-op with auto-syncing BYO-ROM, low-latency audio ring buffer, 30-lives live RAM injection & weapon cheat engine</li>
+      </ul>
+      <p align="center">
+        👉 <a href="https://github.com/nickc72/vortex-nes-webrtc-coop"><strong>View Repository</strong></a>
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/nickc72/komadl">📖 KomaDL</a></h3>
